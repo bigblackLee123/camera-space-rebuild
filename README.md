@@ -1,6 +1,8 @@
 # 相机估计与绘画辅助工具
 
 这是一个用于视频处理、姿态检测、深度图生成和相机参数估计的综合工具集，可以帮助艺术家和动画师更轻松地进行3D建模和动画制作
+![show_1](https://github.com/user-attachments/assets/1b34ffd5-108a-48bb-9952-f7260f0fac5e)
+
 
 
 ## 功能特点
@@ -50,7 +52,12 @@ python ui.0124.py
 
 2. 加载视频文件并使用"分离视频"功能提取关键帧
 3. 使用"生成深度图"功能为提取的帧生成深度信息
+
+![show_2](https://github.com/user-attachments/assets/9e1d4dc4-1896-49ae-8df2-fdae7e2f2c6b)
+
 4. 使用"标注草图"功能手动调整或标注关键点
+   
+![show_3](https://github.com/user-attachments/assets/137e6905-a611-419e-b873-346c933131e6)
 
 ### 相机参数估计与Blender导出
 
@@ -58,12 +65,16 @@ python ui.0124.py
 
 2. 运行space_rebuild.py,标注后草图骨骼关键点信息，计算每帧骨骼与相机相对位置
 
-3.运行apply_to_blender.py，读取计算的每帧骨骼与相机相对位置，进行相机截图，返回截图到程序中   
+3.运行apply_to_blender.py，读取计算的每帧骨骼与相机相对位置，进行相机截图，返回截图到程序中
+![show_5](https://github.com/user-attachments/assets/8d0bbc1b-9427-4c1d-9ac1-91a161a45dd8)
+
 
 ### 音频处理
 
 1. 在主界面中点击"音频生成器"按钮
 2. 使用音频生成界面处理和生成音频
+   
+![show_4](https://github.com/user-attachments/assets/0ff8fb5c-5a12-4387-951d-9e7793064aef)
 
 ## 项目结构
 
